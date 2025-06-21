@@ -52,11 +52,9 @@ Encryption
 1️⃣ Ensure `encryption.py` is in the same directory as your input image.  
 2️⃣ Run:
 
-````bash
 python encryption.py
 3️⃣ Enter your secret message and password when prompted.
 4️⃣ The tool generates encryptedImage.jpg with the hidden message.
-
 
 1️⃣ Ensure decryption.py is in the same directory as your encrypted image.
 2️⃣ Run:
@@ -64,14 +62,14 @@ python decryption.py
 3️⃣ Enter your password when prompted.
 4️⃣ The tool displays the hidden message if the password is correct.
 
-  Deployment
+Deployment
 Developed in Python using Tkinter, Pillow, PyCryptodome
 
 Standalone desktop tool
 
 Supports PNG, JPEG, BMP, GIF
 
- References
+References
 Pillow Documentation
 
 PyCryptodome
@@ -82,7 +80,7 @@ Daemen & Rijmen (2001). The Design of AES
 
 Fridrich (2009). Steganography in Digital Images
 
-  Cloning the Repository
+Cloning the Repository
 
 To clone this repository to your local machine, run:
 
@@ -91,4 +89,4 @@ git clone https://github.com/devid-deshmukh/Cyber_Security.git
 cd Cyber_Security
 
 
-````
+```
