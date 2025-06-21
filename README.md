@@ -2,21 +2,21 @@
 
 Final Project of **IBM Edunet Cybersecurity Internship**
 
-## 📌 Project Title
+## Project Title
 
 **Steganography – Hiding Text Under Image**
 
-## 📝 Overview
+## Overview
 
 This project was developed as part of the IBM Edunet Foundation Cybersecurity internship (6 weeks). The goal is to build a steganography system that securely hides encrypted text messages within digital images. The tool ensures hidden data remains undetectable to unauthorized users while maintaining image quality.
 
 ---
 
-## 📂 Repository Name
+## Repository Name
 
 **Cyber-Security**
 
-### 📄 Files in the Repository
+### Files in the Repository
 
 - `encryption.py` — Script for encoding secret messages into images
 - `decryption.py` — Script for decoding hidden messages from images
@@ -34,7 +34,7 @@ This project was developed as part of the IBM Edunet Foundation Cybersecurity in
 
 ---
 
-## 📚 Libraries Used
+## Libraries Used
 
 - `Tkinter` — GUI (built-in with Python)
 - `Pillow` — Image handling
@@ -45,9 +45,9 @@ This project was developed as part of the IBM Edunet Foundation Cybersecurity in
 
 ---
 
-## ⚡ How to Use
+## How to Use
 
-### Encryption
+Encryption
 
 1️⃣ Ensure `encryption.py` is in the same directory as your input image.  
 2️⃣ Run:
@@ -57,21 +57,21 @@ python encryption.py
 3️⃣ Enter your secret message and password when prompted.
 4️⃣ The tool generates encryptedImage.jpg with the hidden message.
 
-Decryption
+
 1️⃣ Ensure decryption.py is in the same directory as your encrypted image.
 2️⃣ Run:
 python decryption.py
 3️⃣ Enter your password when prompted.
 4️⃣ The tool displays the hidden message if the password is correct.
 
-🚀 Deployment
+  Deployment
 Developed in Python using Tkinter, Pillow, PyCryptodome
 
 Standalone desktop tool
 
 Supports PNG, JPEG, BMP, GIF
 
-📚 References
+ References
 Pillow Documentation
 
 PyCryptodome
@@ -82,7 +82,7 @@ Daemen & Rijmen (2001). The Design of AES
 
 Fridrich (2009). Steganography in Digital Images
 
-## 📥 Cloning the Repository
+  Cloning the Repository
 
 To clone this repository to your local machine, run:
 
